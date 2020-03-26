@@ -19,7 +19,9 @@ public class Produto implements Serializable {
 	private long id;
 
 	private String nome;
+	
 	private BigDecimal quantidade;
+
 	private BigDecimal valor;
 
 	public long getId() {
